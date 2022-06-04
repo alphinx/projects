@@ -1,0 +1,44 @@
+<title>Prince Daniel Mallillin</title>
+<style>
+.float-button {
+position: fixed;
+margin-left: 'auto';
+top: 'auto';
+z-index: 'auto';
+right: pointer;
+}
+button{
+position: fixed;
+left: 25%;
+}
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+</style>
+<video autoplay muted loop>
+    <source src="plexusbg.gif" type="video/mp4">
+</video>
+<div>
+    <body>
+        <div class="button">
+        <div class="float-button">
+    <a href="files/P.M/main.html" target="body"></a>
+    <center>
+        <button onclick="gotolink(this)" value="files/P.M/main.html" ><img src="7.jpg" width="auto" height="80%" style="border: double;">
+        </button>
+    </center>
+    <script>
+    function gotolink (link){
+        console.log(link.value)
+        location = 'files/P.M/main.html';
+    };
+    </script>
+    </div>
+</div>
+
+</body>
+</div>
